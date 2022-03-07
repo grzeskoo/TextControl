@@ -1,8 +1,39 @@
-﻿@{
+﻿@using TXTextControl.Web.MVC.DocumentViewer
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div style="width: 800px; height: 600px;">
+    @Html.TXTextControl().DocumentViewer(settings => {
+    settings.Dock = DocumentViewerSettings.DockStyle.Fill;
+    settings.ToolbarDocked = true;
+    }).Render()
 </div>
+
+<input type="button" value="Merge Document" onclick="mergeDocument()" />
+
+@section Scripts {
+<script type="text/javascript">
+
+    function mergeDocument() {
+
+        // call the Web API "MergeDocument"
+        $.ajax({
+            type: "GET",
+            url: "/Home/mergeDocument",
+            contentType: 'application/json',
+            success: successFunc,
+            error: errorFunc
+        });
+
+        function successFunc(data, status) {
+            TXDocumentViewer.loadDocument(data);
+        }
+
+        function errorFunc(xhr, ajaxOptions, thrownError) {
+            alert(thrownError);
+        }
+    }
+</script>
+}

@@ -12,4 +12,76 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\grzegorz.orda\.nuget\packages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\CSS\jquery-ui.css" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\CSS\jquery-ui.css')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>30.0.1001.500</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\CSS\jquery-ui.css</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\CSS\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\CSS\jquery-ui.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\CSS\main.min.css" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\CSS\main.min.css')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>30.0.1001.500</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\CSS\main.min.css</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\CSS\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\CSS\main.min.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\ThirdParty\jquery-1.10.2.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\ThirdParty\jquery-1.10.2.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>30.0.1001.500</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\ThirdParty\jquery-1.10.2.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\ThirdParty\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\ThirdParty\jquery-1.10.2.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\ThirdParty\jquery-ui-1.10.2.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\ThirdParty\jquery-ui-1.10.2.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>30.0.1001.500</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\ThirdParty\jquery-ui-1.10.2.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\ThirdParty\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\ThirdParty\jquery-ui-1.10.2.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>30.0.1001.500</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\ThirdParty\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\tx.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\30.0.1001.500\contentFiles\any\netcoreapp3.1\TXTextControl.Web\JS\tx.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>30.0.1001.500</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\tx.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\tx.min.js</Link>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBuildBundlerMinifier Condition=" '$(PkgBuildBundlerMinifier)' == '' ">C:\Users\grzegorz.orda\.nuget\packages\buildbundlerminifier\3.2.449</PkgBuildBundlerMinifier>
+    <PkgTXTextControl_Web Condition=" '$(PkgTXTextControl_Web)' == '' ">C:\Users\grzegorz.orda\.nuget\packages\txtextcontrol.web\30.0.1001.500</PkgTXTextControl_Web>
+  </PropertyGroup>
 </Project>

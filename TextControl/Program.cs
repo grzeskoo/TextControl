@@ -16,6 +16,9 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+AppDomain.CurrentDomain.SetData("DataDirectory", Path.Combine( Path.GetDirectoryName(
+           System.Reflection.Assembly.GetEntryAssembly().Location), "App_Data"));
+
 app.UseRouting();
 
 app.UseAuthorization();

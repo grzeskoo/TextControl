@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TextControl",
+    "\\TextControl\\Controllers"
   ],
   "PreviewInSolutionExplorer": false
 }

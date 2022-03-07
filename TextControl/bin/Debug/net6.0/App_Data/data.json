@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Jackson",
+    "firstname": "Peter",
+    "city": "Charlotte",
+    "zip": "28226",
+    "street": "6920 Shannon Willow Rd",
+    "product": [
+      {
+        "name": "TX Text Control .NET Server for ASP.NET",
+        "price": "2998"
+      },
+      {
+        "name": "TX Text Control .NET for Windows Forms",
+        "price": "1459"
+      }
+    ]
+  }
+]

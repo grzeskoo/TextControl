@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grzegorz.orda\\Source\\Repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj": {}
+    "C:\\Users\\grzegorz.orda\\source\\repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grzegorz.orda\\Source\\Repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj": {
+    "C:\\Users\\grzegorz.orda\\source\\repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grzegorz.orda\\Source\\Repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj",
+        "projectUniqueName": "C:\\Users\\grzegorz.orda\\source\\repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj",
         "projectName": "TextControl",
-        "projectPath": "C:\\Users\\grzegorz.orda\\Source\\Repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj",
+        "projectPath": "C:\\Users\\grzegorz.orda\\source\\repos\\grzeskoo\\TextControl\\TextControl\\TextControl.csproj",
         "packagesPath": "C:\\Users\\grzegorz.orda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grzegorz.orda\\Source\\Repos\\grzeskoo\\TextControl\\TextControl\\obj\\",
+        "outputPath": "C:\\Users\\grzegorz.orda\\source\\repos\\grzeskoo\\TextControl\\TextControl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grzegorz.orda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "TXTextControl.Web": {
+              "target": "Package",
+              "version": "[30.0.1001.500, )"
+            },
+            "TXTextControl.Web.DocumentViewer": {
+              "target": "Package",
+              "version": "[30.0.403.500, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
